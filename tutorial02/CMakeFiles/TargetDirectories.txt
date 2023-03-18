@@ -1,4 +1,0 @@
-/home/rubint/proj/json-tutorial-master/tutorial02/CMakeFiles/rebuild_cache.dir
-/home/rubint/proj/json-tutorial-master/tutorial02/CMakeFiles/edit_cache.dir
-/home/rubint/proj/json-tutorial-master/tutorial02/CMakeFiles/leptjson_test.dir
-/home/rubint/proj/json-tutorial-master/tutorial02/CMakeFiles/leptjson.dir
