@@ -231,3 +231,5 @@ static int lept_parse_value(lept_context* c, lept_value* v) {
    是的，这是合法的。JSON 源自于 JavaScript（[ECMA-262, 3rd edition](https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)），数字语法取自 JavaScript 的十进位数字的语法（§7.8.3 Numeric Literals）。整数不容许前导零（leading zero），是因为更久的 JavaScript 版本容许以前导零来表示八进位数字，如 `052 == 42`，这种八进位常数表示方式来自于 [C 语言](https://en.cppreference.com/w/c/language/integer_constant)。禁止前导零避免了可能出现的歧义。但是在指数里就不会出现这个问题。多谢 @Smallay 提出及协助解答这个问题。
 
 其他常见问答将会从评论中整理。
+
+
