@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rubint/proj/leptjson/tutorial03/leptjson.h
+stddef.h
+-
+
+/home/rubint/proj/leptjson/tutorial03/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+leptjson.h
+/home/rubint/proj/leptjson/tutorial03/leptjson.h
+
