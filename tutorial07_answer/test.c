@@ -452,7 +452,7 @@ static void test_access_boolean() {
     EXPECT_FALSE(lept_get_boolean(&v));
     lept_free(&v);
 }
-
+ 
 static void test_access_number() {
     lept_value v;
     lept_init(&v);
